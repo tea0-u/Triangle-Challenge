@@ -27,7 +27,7 @@ double check(double tall1 ,double tall2 ,double tall3)  //check if it is triangl
 
 double type(double tall1 ,double tall2 ,double tall3)//know type of triangle
 {
-	if(tall1=tall2=tall3)
+	if(tall1==tall2==tall3)
 		{
 			cout<<"is a Equilateral";
 			}	
@@ -55,3 +55,4 @@ cout<<"enter your triangle vlue"<<endl;
 	cout<<type(num1,num2,num3);
 return 0;
 }
+
